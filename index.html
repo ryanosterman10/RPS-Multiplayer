@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Multiplayer RPS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-D9XILkoivXN+bcvB2kSOowkIvIcBbNdoDQvfBNsxYAIieZbx8/SI4NeUvrRGCpDi" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Ryan Osterman</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Multiplayer RPS</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <div class="container">
+
+    <div class="row well">
+      <header class="col-md-12 text-center">
+        <h1>Rock Paper Scissors</h1>
+      </header>
+    </div>
+
+    <div class="row text-center">
+      <form id="player-name">
+        <input type="text" id="player-input" placeholder="Enter your name">
+        <input type="submit" id="name-submit" value="Start">
+      </form>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4 player1 box">
+        <p class="game-message">Waiting for Player 1</p>
+      </div>
+      <div class="col-md-4 result box">
+        <p class="game-message"></p>
+      </div>
+      <div class="col-md-4 player2 box">
+        <p class="game-message">Waiting for Player 2</p>
+      </div>
+    </div>
+
+    <div class="row">
+      
+    </div>
+    
+  </div>	<!-- main container close -->
+
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+    	<div class="container">
+        	<p class="navbar-text pull-left">&copy;Copyright 2016 Ryan Osterman</p>
+            <a href="#" class="navbar-btn btn-default btn pull-right">Rate</a>
+        </div>
+    </nav>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>

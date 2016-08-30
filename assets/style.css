@@ -1,0 +1,32 @@
+body{
+	/*background-image: url(https://udemy-images.udemy.com/course/750x422/695566_74ab_2.jpg);*/
+	background-image: url(http://media2.s-nbcnews.com/i/newscms/2016_11/1016236/rock-paper-scissors-today-tease2-160317_356b03692e9b9affad7e8b26657af6f9.jpg);
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#player-input, #name-submit{
+	font-size: 3em;
+}
+
+.box{
+	height: 300px;
+	background-color: white;
+	border: 5px solid black;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.game-message{
+	font-size: 2em;
+}
+
+.message-box{
+	background-color: white;
+	height: 200px;
+	width: 500px;
+	overflow: scroll;
+}
